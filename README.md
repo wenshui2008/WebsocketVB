@@ -9,15 +9,15 @@ VBTester - VB.NET调用测试程序 Visual Studio 2010项目
 VBToolsLib - Websocket组件库，包含64位与32位组件  
   |  
   +-x64  
-  |  |-libcrypto-1_1-x64.dll -Openssl 64位加密库  
-  |  |-libssl-1_1-x64.dll -Openssl调用库  
-  |  |-msvcr100.dll -VC2010运行时库64位版本，如果系统已经安装了这个库文件，则可以删除  
-  |  +-VBTools.dll -Websocket 组件64位版本  
+  | &nbsp;&nbsp; |-libcrypto-1_1-x64.dll -Openssl 64位加密库  
+  | &nbsp;&nbsp; |-libssl-1_1-x64.dll -Openssl调用库  
+  | &nbsp;&nbsp; |-msvcr100.dll -VC2010运行时库64位版本，如果系统已经安装了这个库文件，则可以删除  
+  | &nbsp;&nbsp; +-VBTools.dll -Websocket 组件64位版本  
   |-x86  
-     |-libcrypto-1_1.dll -Openssl 32位加密库  
-     |-libssl-1_1.dll -Openssl调用库  
-     |-msvcr100.dll - VC2010运行时库32位版本，如果系统已经安装了这个库文件，则可以删除  
-     +-VBTools.dll  -Websocket 组件32位版本  
+    &nbsp;&nbsp; |-libcrypto-1_1.dll -Openssl 32位加密库  
+    &nbsp;&nbsp; |-libssl-1_1.dll -Openssl调用库  
+    &nbsp;&nbsp; |-msvcr100.dll - VC2010运行时库32位版本，如果系统已经安装了这个库文件，则可以删除  
+    &nbsp;&nbsp; +-VBTools.dll  -Websocket 组件32位版本  
   
 VBWebsocket - VB6调用测试程序,请用VB6打开（Visual Studio 98)  
   
