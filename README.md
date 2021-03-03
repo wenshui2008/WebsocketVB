@@ -1,5 +1,5 @@
 # WebsocketVB
-A websocket communication component for VB/VB.NET/C#
+A websocket communication component for VB6/VB.NET/C#
 
 一个用于VB6/VB.NET/C#进行Websocket通信的COM组件，支持WS/WSS，采用异步事件机制，性能优。 
 
