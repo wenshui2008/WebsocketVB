@@ -3,7 +3,7 @@ A websocket communication component for VB6/VB.NET/C#
 
 一个用于VB6/VB.NET/C#进行Websocket通信的COM组件，支持WS/WSS，采用异步事件机制，性能优。 完全模仿H5 Websocket 类实现。
 添加 setHttpHeader 方法
-使用方法请参考：[参考文档](https://blog.csdn.net/ababab12345/article/details/114006605?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22114006605%22%2C%22source%22%3A%22ababab12345%22%7D){:target="_blank"}
+使用方法请参考：[参考文档](https://blog.csdn.net/ababab12345/article/details/114006605?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22114006605%22%2C%22source%22%3A%22ababab12345%22%7D)
 
 
 # 文件说明：  
