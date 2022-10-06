@@ -23,6 +23,10 @@
         '任何事件可以调用bufferedAmount属性获取尚未发送的缓冲数目，这里仅是演示
         count = websock.bufferedAmount
 
+        '在调用open 方法之前可以设置Http 请求头，这些头放在标准的HTTP协议请求头里发送给服务器
+        websock.setHttpHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36")
+        websock.setHttpHeader("Cookie", "XMPlayer=V1.0; PHPSESSID=3nm364h6bu2i80lp4esik5ki56")
+
         urlInput.Text = "wss://192.168.2.134:3000/"
 
         If (IntPtr.Size = 8) Then
