@@ -30,6 +30,10 @@ namespace CSTester
             //websock.setwindowhandle((int)this.Handle);
             websock.setwindowhandle64((long)this.Handle);
 
+            // 在调用open 方法之前可以设置Http 请求头，这些头放在标准的HTTP协议请求头里发送给服务器
+            websock.setHttpHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36");
+            websock.setHttpHeader("Cookie", "XMPlayer=V1.0; PHPSESSID=3nm364h6bu2i80lp4esik5ki56");
+
             urlInput.Text = "wss://192.168.2.134:3000/";
             //演示获取属性
             count = websock.bufferedAmount;
